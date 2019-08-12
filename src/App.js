@@ -7,6 +7,14 @@ import { async } from 'q';
 const API_KEY = '9a4ed9099cc8a0d7eb602ef441b6b47f';
 
 export class App extends Component {
+    state = {
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: undefined
+    }
     getWeather = async (e) => {
         e.preventDefault();
         const city = e.target.elements.city.value;
@@ -18,6 +26,15 @@ export class App extends Component {
          const api_call =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`)
          const data = await api_call.json(); 
          console.log(data)
+
+         this.setState({
+             temperature: data.main.temp,
+             city: data.name,
+             country: data.sys.country,
+             humidity: data.main.humidity,
+             description: data.weather[0].description,
+             error: ''
+         })
         }
 
     render() {
@@ -25,7 +42,7 @@ export class App extends Component {
             <div>
                 <Titles/>
                 <Form getWeather = {this.getWeather}/>
-                <Weather/>
+                <Weather weather = {this.state}/>
             </div>
         )
     }
