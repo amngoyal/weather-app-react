@@ -58,3 +58,104 @@ Use '--' to separate paths from revisions, like this:
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --local branch.master.github-pr-owner-number
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/App.css
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/index.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git check-ignore -v -z --stdin
+> git show :Desktop/weather-app-react/public/index.html
+> git ls-files --stage -- Desktop/weather-app-react/public/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/App.css
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git check-ignore -v -z --stdin
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git check-ignore -v -z --stdin
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git check-ignore -v -z --stdin
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git check-ignore -v -z --stdin
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
