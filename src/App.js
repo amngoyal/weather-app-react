@@ -22,27 +22,33 @@ export class App extends Component {
 
         // const data =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},uk&appid=${API_KEY}`)
         // .then( res => res.json())
-       
-         const api_call =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`)
-         const data = await api_call.json(); 
-         console.log(data)
 
-         this.setState({
-             temperature: data.main.temp,
-             city: data.name,
-             country: data.sys.country,
-             humidity: data.main.humidity,
-             description: data.weather[0].description,
-             error: ''
-         })
+        const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`)
+        const data = await api_call.json();
+
+        if (city && country) {
+            console.log(data)
+            this.setState({
+                temperature: data.main.temp,
+                city: data.name,
+                country: data.sys.country,
+                humidity: data.main.humidity,
+                description: data.weather[0].description,
+                error: ''
+            })
+        } else {
+            this.setState({
+                error: "Please enter the city and country"
+            })
         }
+    }
 
     render() {
         return (
             <div>
-                <Titles/>
-                <Form getWeather = {this.getWeather}/>
-                <Weather weather = {this.state}/>
+                <Titles />
+                <Form getWeather={this.getWeather} />
+                <Weather weather={this.state} />
             </div>
         )
     }
