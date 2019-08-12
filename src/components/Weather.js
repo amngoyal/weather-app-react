@@ -1,17 +1,21 @@
-import React, { Component } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 
-export class Weather extends Component {
-    render() {
-        return (
-            <div>
-                {this.props.weather.city && this.props.weather.country && <p>Location: {this.props.weather.city}, {this.props.weather.country}</p>}
-                {this.props.weather.temperature && <p>Temperature: {this.props.weather.temperature}</p>}
-                {this.props.weather.humidity && <p>Humidity: {this.props.weather.humidity}</p>}
-                {this.props.weather.description && <p>Description: {this.props.weather.description}</p>}
-                {this.props.weather.error && <p>{this.props.weather.error}</p>}
-            </div>
-        )
-    }
+//Using Stateless Functional Components
+const Weather = props => (
+    <div>
+        {props.weather.city && props.weather.country && <p>Location: {props.weather.city}, {props.weather.country}</p>}
+        {props.weather.temperature && <p>Temperature: {props.weather.temperature}</p>}
+        {props.weather.humidity && <p>Humidity: {props.weather.humidity}</p>}
+        {props.weather.description && <p>Description: {props.weather.description}</p>}
+        {props.weather.error && <p>{props.weather.error}</p>}
+    </div>
+)
+
+
+Weather.propTypes = {
+weather: PropTypes.object.isRequired
 }
 
 export default Weather
+

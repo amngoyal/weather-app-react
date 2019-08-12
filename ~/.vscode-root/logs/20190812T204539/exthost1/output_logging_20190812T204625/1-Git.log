@@ -206,3 +206,37 @@ Use '--' to separate paths from revisions, like this:
 > git ls-files --stage -- Desktop/weather-app-react/src/
 > git show :Desktop/weather-app-react/src/components/Weather.js
 > git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Form.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Weather.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/components/Title.js
+> git ls-files --stage -- Desktop/weather-app-react/src/components/
+> git show :Desktop/weather-app-react/src/App.js
+> git ls-files --stage -- Desktop/weather-app-react/src/

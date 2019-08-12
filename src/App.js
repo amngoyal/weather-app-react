@@ -6,6 +6,7 @@ import { async } from 'q';
 
 const API_KEY = '9a4ed9099cc8a0d7eb602ef441b6b47f';
 
+// CLass Based Component
 export class App extends Component {
     state = {
         temperature: undefined,
